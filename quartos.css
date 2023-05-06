@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: lightskyblue;;
+    padding: 10px;
+}
+
+#menubar {
+    background: lightskyblue;
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 125px;
+    right: 0; 
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: darkgoldenrod;
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+nav li {
+    display: inline;
+    margin: 15px;
+}
+
+#caixa {
+    margin-left:13%;
+}
+
+.tipo-quartos {
+    display: inline-block;
+    vertical-align: top;
+    margin: 60px 1.8% 120px;
+    padding: 25px;
+    border: 2px solid;
+    border-radius: 6%;
+    text-align: center;
+}
+
+.tipo-quartos:hover {
+    border: 4px solid darkgoldenrod;
+}
+
+.tipo-quartos:active {
+    border: 4px solid green;
+}
+
+.tipo-quartos:hover h2 {
+    font-size: 24px;
+}
+
+.tipo-quartos h2 {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.icones {
+    width: 120px;
+    margin-bottom: 50px;
+}
+
+.descricao-quartos {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.preco-quartos {
+    margin-top: 20px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+footer {
+    background: lightskyblue;
+    text-align: center;
+    padding: 20px;
+}
+
+footer img {
+    width: 150px;
+    margin: -25px 0;
+}
+
+footer h3 {
+    margin-top: -14px;
+    margin-bottom: 25px;
+    font-weight: lighter;
+    font-size: 12px;
+    opacity: 0.8;
+}

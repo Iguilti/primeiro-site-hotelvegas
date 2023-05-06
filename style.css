@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: lightskyblue;
+    padding: 10px;
+}
+
+#menubar {
+    background: lightskyblue;
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 125px;
+    right: 0; 
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: darkgoldenrod;
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+nav li {
+    display: inline;
+    margin: 15px;
+}
+
+#vegas-entrada {
+    margin-top: 20px;
+    width: 100%;
+    height: 650px;
+}
+
+.principal {
+    padding: 35px;
+}
+
+main h2, h3 {
+    text-align: center;
+}
+
+main p {
+    font-size: 20px;
+    text-align: center;
+}
+
+strong {
+    color: darkred;
+}
+
+.facilidades {
+    padding: 25px;
+}
+
+.lista-facilidades {
+    font-style: italic;
+    display:inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+#vegas-cassino {
+    width: 40%;
+}
+
+footer {
+    background: lightskyblue;
+    text-align: center;
+    padding: 20px;
+    margin-top: 120px;
+}
+
+footer img {
+    width: 150px;
+    margin: -25px 0;
+}
+
+footer h3 {
+    margin-top: -14px;
+    margin-bottom: 25px;
+    font-weight: lighter;
+    font-size: 12px;
+    opacity: 0.8;
+}
