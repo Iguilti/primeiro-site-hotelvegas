@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    border: 0;
     box-sizing: border-box;
 }
 
@@ -32,9 +31,8 @@ nav a {
 }
 
 nav a:hover {
-    color: darkgoldenrod;
+    color: goldenrod;
     text-decoration: underline;
-    opacity: 0.8;
 }
 
 nav li {
@@ -51,10 +49,11 @@ main h3 {
     margin-top: 60px;
     margin-bottom: 40px;
     text-transform: uppercase;
+    font-size: 22px;
 }
 
 main p {
-    font-size: 18px;
+    font-size: 20px;
     margin: 20px;
 
 }
@@ -65,6 +64,10 @@ main p {
 
 form {
     margin: 40px 20px;
+}
+
+form p {
+    margin: 50px 0 5px;
 }
 
 form label {
@@ -86,7 +89,20 @@ form textarea {
     margin-bottom: 30px;
 }
 
+select {
+    margin: 5px 0 20px;
+}
 
+#enviar {
+    background: lightskyblue;
+    font-size: 13px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#enviar:hover {
+    background: goldenrod;
+}
 
 footer {
     background: lightskyblue;

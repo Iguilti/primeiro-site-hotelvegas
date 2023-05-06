@@ -32,9 +32,8 @@ nav a {
 }
 
 nav a:hover {
-    color: darkgoldenrod;
+    color: goldenrod;
     text-decoration: underline;
-    opacity: 0.8;
 }
 
 nav li {
