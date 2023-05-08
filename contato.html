@@ -22,7 +22,7 @@
     </header>
 
     <main>
-        <div>
+        <div id="faleconosco">
             <h3>Fale conosco através dos nossos canais atendimento</h3>
             <p>Whats app: 11 5555 4444</p>
             <p>Instagram: <a href="https://www.instagram.com/bellagiolasvegas" target="_blank">/bellagiolasvegas</a></p>
@@ -34,10 +34,10 @@
             <h3>ou preencha o formulário abaixo</h3>
             <form>
             <label for="nome">Nome Completo</label>
-            <input type="text" id="nome">
+            <input type="text" id="nome" class="input-padrao">
 
             <label for="email">Email</label>
-            <input type="text" id="email">
+            <input type="email" id="email" class="input-padrao">
 
             <div>
                 <p>Selecione o motivo da sua mensagem:</p>
@@ -51,18 +51,16 @@
             </div>
             
             <label for="mensagem">Escreva sua mensagem</label>
-            <textarea rows="10" id="mensagem"></textarea>
+            <textarea rows="10" id="mensagem" class="input-padrao"></textarea>
 
             <div>
                 <p>Gostaria de receber nossas atualizações e informações?</p>
-                <label for="sim">Sim</label>
-                <input type="radio" id="sim" name="newsletter" value="radio-sim">
-
-                <label for="nao">Não</label>
-                <input type="radio" id="nao" name="newsletter" value="radio-nao">
+                <label class="radiobox" for="sim"><input type="radio" id="sim" name="newsletter" value="radio-sim" checked> Sim</label>
+                
+                <label class="radiobox" for="nao"><input type="radio" id="nao" name="newsletter" value="radio-nao"> Não</label>    
             </div>
 
-            <input type="submit" id="enviar" value="Enviar">
+            <input type="submit" id="enviar" value="Enviar" class="input-padrao">
         </div>
 
     </main>
