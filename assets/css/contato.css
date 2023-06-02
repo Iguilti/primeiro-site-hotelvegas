@@ -1,45 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-header {
-    background: lightskyblue;;
-    padding: 10px;
-}
-
-#menubar {
-    background: lightskyblue;
-    width: 940px;
-    position: relative;
-    margin: 0 auto;
-}
-
-nav {
-    position: absolute;
-    top: 125px;
-    right: 0; 
-}
-
-nav a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: black;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-nav a:hover {
-    color: goldenrod;
-    text-decoration: underline;
-}
-
-nav li {
-    display: inline;
-    margin: 15px;
-}
-
 main {
     width: 940px;
     margin: 0 auto;
@@ -104,23 +62,4 @@ select {
 #enviar:hover {
     background: goldenrod;
     transform: scale(1.05);
-}
-
-footer {
-    background: lightskyblue;
-    text-align: center;
-    padding: 20px;
-}
-
-footer img {
-    width: 150px;
-    margin: -25px 0;
-}
-
-footer h3 {
-    margin-top: -14px;
-    margin-bottom: 25px;
-    font-weight: lighter;
-    font-size: 12px;
-    opacity: 0.8;
 }
