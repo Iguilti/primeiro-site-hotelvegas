@@ -1,62 +1,69 @@
 * {
     margin: 0;
     padding: 0;
-    border: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-header {
-    background: lightskyblue;
-    padding: 10px;
-}
 
 #menubar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     background: lightskyblue;
-    width: 940px;
-    position: relative;
-    margin: 0 auto;
+    width: 100%;
+    height: 70px;
 }
 
-nav {
-    position: absolute;
-    top: 125px;
-    right: 0; 
+#menubar img {
+    width: 100px;
 }
 
-nav a {
+
+#menubar li {
+    display: inline-block;
+    padding: 21px 30px;
+}
+
+#menubar li:hover {
+    background: rgb(129, 199, 243);
+    font-size: large;
+    border-bottom: 3px solid white;
+}
+
+#menubar a {
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 14px;
+    align-items: center;
 }
 
-nav a:hover {
-    color: goldenrod;
-    text-decoration: underline;
+button {
+    width: 100px;
+    margin: 5px;
+    padding: 10px;
+    border: 0;
+    border-radius: 18px;
+    cursor: pointer;
 }
 
-nav li {
-    display: inline;
-    margin: 15px;
+button:hover {
+    opacity: .9;
+    font-weight: bold;
+    box-shadow: 1.5px 1.5px 1px black;
 }
 
 footer {
     background: lightskyblue;
     text-align: center;
-    padding: 20px;
-    margin-top: 40px;
 }
 
 footer img {
-    width: 150px;
-    margin: -25px 0;
+    width: 130px;
 }
 
-footer h3 {
-    margin-top: -14px;
-    margin-bottom: 25px;
-    font-weight: lighter;
-    font-size: 12px;
-    opacity: 0.8;
+footer p {
+    padding-bottom: 20px;
 }
