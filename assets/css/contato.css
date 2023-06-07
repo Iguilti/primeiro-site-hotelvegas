@@ -1,61 +1,37 @@
-main {
-    width: 940px;
-    margin: 0 auto;
-}
-
-main h3 {
-    margin-top: 60px;
-    margin-bottom: 40px;
+main h1, h2 {
+    text-align: center;
     text-transform: uppercase;
-    font-size: 21px;
+    font-size: 23px;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    margin-bottom: 20px;
+    padding: 8px;
 }
 
-#faleconosco p {
+main p {
     font-size: 20px;
-    margin: 15px 0;
-
+    text-align: center;
 }
 
-form {
-    margin: 40px 0; 
+.principal {
+    margin-top: 20px;
+    padding: 35px 150px;
+    text-align: center;
 }
 
-form label, form p {
-    display: block;
-    font-size: 22px;
-    margin-bottom: 0 0 15px;
+.atracoes li {
+    display: inline-block;
+    margin: 20px 40px;
+    width: 25%;
 }
 
-.input-padrao {
-    display: block;
-    margin-bottom: 30px;
-    padding: 10px;
-    width: 40%;
+.atracoes h3 {
+    margin-bottom: 15px;
+    font-style:italic;
+    color: darkgoldenrod;
 }
 
-select {
-    margin: 10px 0 20px;
-    font-size: 16px;
-}
-
-.radiobox {
-    margin: 8px 0;
-}
-
-#enviar {
-    width: 38%;
-    background: lightskyblue;
-    font-size: 13px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    margin: 30px 0 80px;
-    border: solid 0.5px;
-    border-radius: 10px;
-    transition: 600ms all;
-    cursor: pointer;
-}
-
-#enviar:hover {
-    background: goldenrod;
-    transform: scale(1.05);
+.foto-atracao {
+    width: 260px;
+    height: 160px;
 }
